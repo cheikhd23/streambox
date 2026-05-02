@@ -4,44 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StreamBox</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>StreamBox</h1>
-        <p>Your home for amazing shows</p>
-    </header>
+    <header class="site-header">
+        <div class="brand-block">
+            <h1>StreamBox</h1>
+            <p>Browse drama, comedy, thriller, and more. Watch anywhere.</p>
+        </div>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Shows</a>
-        <a href="#">Categories</a>
-        <a href="#">About</a>
-    </nav>
+        <nav class="site-nav">
+            <a href="#">Home</a>
+            <a href="#">Shows</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
 
     <main>
 
         <section id="hero">
-            <h2>Featured This Week</h2>
-            <p>Discover trending shows and new releases.</p>
+            <h2>Stream what you love</h2>
+            <p>Anytime, anywhere.</p>
+            <button class="btn-primary">Browse</button>
         </section>
 
         <section id="featured">
             <h2>Featured Shows</h2>
 
-            <article>
+            <article class="card">
                 <h3>Show 1</h3>
-                <p>Description of Show 1</p>
+                <p>Drama</p>
             </article>
 
-            <article>
+            <article class="card">
                 <h3>Show 2</h3>
-                <p>Description of Show 2</p>
+                <p>Comedy</p>
             </article>
 
-            <article>
+            <article class="card">
                 <h3>Show 3</h3>
-                <p>Description of Show 3</p>
+                <p>Thriller</p>
             </article>
 
         </section>
@@ -49,9 +52,10 @@
     </main>
 
     <footer>
-        <p>Subscribe to our newsletter</p>
         <p>&copy; 2026 StreamBox</p>
+        <p>All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
